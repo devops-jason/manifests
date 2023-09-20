@@ -1,3 +1,3 @@
 node default {
-  lookup('classes', {merge => unique}).include
+  hiera_include(classes)
 }
